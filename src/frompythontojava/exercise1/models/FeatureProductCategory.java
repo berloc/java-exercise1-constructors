@@ -23,6 +23,36 @@ public class FeatureProductCategory extends ProductCategory {
     }
 
     @Override
+    public int getId() {
+        return id;
+    }
+
+    @Override
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    public Date getStartDate() {
+        return startDate;
+    }
+
+    public void setStartDate(Date startDate) {
+        this.startDate = startDate;
+    }
+
+    public Date getEndDate() {
+        return endDate;
+    }
+
+    public void setEndDate(Date endDate) {
+        this.endDate = endDate;
+    }
+
+    public String schedule(Date startDate, Date endDate){
+        return ("Some schedule info about: " + this.getName() + ", start date: " + startDate + " " + "end date: " + endDate);
+    }
+
+    @Override
     public String toString() {
         return "FeatureProductCategory{" +
                 "id=" + id +
