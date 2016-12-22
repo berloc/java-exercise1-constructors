@@ -2,6 +2,7 @@
   <component name="FileTypeManager" version="17">
     <extensionMap>
       <mapping pattern="readme.md" type="PLAIN_TEXT" />
+      <mapping pattern="e" type="PLAIN_TEXT" />
       <mapping pattern="1" type="PLAIN_TEXT" />
       <mapping ext="vtl" type="VTL" />
     </extensionMap>
